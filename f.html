@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        .Model{
+            position: fixed;
+            border: 3px solid royalblue;
+            left: 25%;
+            right: 25%;
+            top: 25%;
+            z-index: 1;
+            bottom: auto;
+            padding: 10px;
+            background-color: lightpink;
+        }
+        input[type="text"],input[type="password"]{
+            padding: 10px 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 95%;
+        }
+        button{
+            background-color: green;
+            color: white;
+            width: 100%;
+            padding: 10px 16px;
+            margin: 8px 0px;
+        }
+        .cancelbutton{
+            background-color: red;
+            width: auto;
+        }
+        span.pss{
+            padding-top: 10px;
+            float: right;
+        }
+        .container2{
+            background-color: lightgray;
+        }
+        *body{
+            background-image: url("i.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div id="full">
+    <div class="Model">
+        <form action="" method="">
+            <div class="container1">
+                <b>User Name</b><br>
+                <input type="text" placeholder="Enter your name"><br>
+                <b>Password</b><br>
+                <input type="password" placeholder="Enter your password"><br>
+                <button type="submit">Login</button><br>
+                <input type="checkbox" name="remember" checked="checked">Remember me 
+            </div>
+            <div class="container2">
+                <button class="cancelbutton">Cancel</button>
+                <span class="pss">Forget <a href="#">Forget Password</a></span>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
